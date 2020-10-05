@@ -10,7 +10,7 @@ spec:
                 "bridge": "cni-bridge",
                 "isDefaultGateway": true,
                 "forceAddress": false,
-                "ipMasq": true,
+                "ipMasq": false,
                 "hairpinMode": true,
                 "ipam": {
                         "type": "host-local",
