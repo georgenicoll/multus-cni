@@ -14,5 +14,6 @@ spec:
         }'
         # dhcp in ipam above requires that the cni dhcp daemon is running
         # this is located in /opt/cni/bin, cd there and: #> sudo ./dhcp daemon
-        # TODO: work out how to run this as a DaemonSet
+        # Easier is to run a daemonset to do this, see:
+        #   https://github.com/georgenicoll/reference-deployment/blob/master/multus-dhcp/dhcp-daemonset-arm64.yml
 
